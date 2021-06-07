@@ -11,3 +11,100 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.mainLogo {
+  width: 70px;
+  height:70px;
+  border-radius: 50%;
+  padding-top: 10px;
+  margin-left: 40%;
+}
+
+.mainText {
+  margin-left: 22%;
+
+}
+
+.myLink {
+  text-decoration: none;
+}
+
+.main{
+  /* text-align: center; */
+  margin: 0 auto;
+  max-width: 500px;
+}
+.content {
+  border:  5px rgb(148, 148, 255) solid;
+  border-radius: 10px;
+  font-size: 20px;
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+
+table {
+  width: 100%;
+
+}
+
+td:first-child {
+  width: 100%;
+}
+
+td:last-child {
+  min-width: 125px;
+}
+
+th {
+  text-align: left;
+
+}
+
+tr:nth-child(even){
+  background-color: #ffffff;
+}
+
+input, button {
+  font-size: 20px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 2px #c0c0c0 solid;
+
+}
+
+button {
+  cursor: pointer;
+}
+
+button.add {
+  background-color: #0080ff;
+  color: #ffffff;
+}
+
+button.edit {
+  background-color: #f0ae22;
+  color: #ffffff;
+}
+
+button.delete {
+  background-color: #ff2d2d;
+  color: #ffffff;
+}
+
+button.save {
+  background-color: #00d346;
+  color: #ffffff;
+}
+
+button.back {
+  background-color: #5a5a5a;
+  color: #ffffff;
+}
+
+.task {
+  cursor: pointer;
+}
+
+.completed {
+  text-decoration: line-through;
+}
